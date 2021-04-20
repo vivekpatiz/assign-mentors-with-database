@@ -4,7 +4,7 @@ const cors = require("cors")
 app.use(cors())
 app.use(express.json())
 const mongodb = require("mongodb")
-const URL = "mongodb://localhost:27017"
+const URL = "mongodb+srv://vivek:Vivek123@db.vppcl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const DB = "sample"
 
 
